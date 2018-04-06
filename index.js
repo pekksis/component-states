@@ -71,7 +71,8 @@ function Survey(props){
 
     <div class="welcome">
       <h1>Hello, {props.name} and welcome to our survey!</h1>
-      <p>We're looking forward to getting your answers so we can make sure our products and services are the best they can be!</p>
+      <p>We're looking forward to getting your answers so we can make sure our products and services are the best they can be! 
+      </p>
     </div>
 
     <div class="question">
