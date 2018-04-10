@@ -8,9 +8,9 @@ class Contact extends React.Component{
     console.log(this.props);
     return(
       <div>
-      <h4>{this.props.contact.name}</h4>
-      <p>{this.props.contact.address}</p>
-      <p>{this.props.contact.phone}</p>
+        <h4>{this.props.contact.name}</h4>
+        <p>{this.props.contact.address}</p>
+        <p>{this.props.contact.phone}</p>
       </div>
     );
   }
