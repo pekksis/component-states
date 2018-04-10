@@ -11,8 +11,9 @@ class ContactList extends React.Component{
   render(){
     console.log(this.props.contacts);
 
-    var elements = [];
+    var elements = []; //Array that will contain Contact components
 
+    //Looping through the Contact list and creating a new Contact component for each contact
     for(let i=0; i<this.props.contacts.length; i++){
       elements.push(<Contact contact = {this.props.contacts[i]}/>);
     }
